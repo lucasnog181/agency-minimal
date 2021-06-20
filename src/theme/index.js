@@ -14,6 +14,8 @@ export default {
     gray: '#F8FAFC',
     muted: '#7B8188', // muted color
     accent: '#609',
+
+    // highlight	a background color for highlighting te
   },
   breakpoints: [
     '480px',
@@ -28,7 +30,7 @@ export default {
     body: "'DM Sans', sans-serif",
     heading: "'DM Sans', sans-serif",
   },
-  fontSizes: [12, 15, 16, 18, 20, 22, 24, 28, 32, 36, 42, 48, 52, 64],
+  fontSizes: [15, 15, 16, 18, 20, 21, 30, 36, 48, 64],
   fontWeights: {
     body: 'normal',
     heading: 500,
