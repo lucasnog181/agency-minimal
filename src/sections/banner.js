@@ -39,18 +39,18 @@ const Banner = () => {
                         <Box sx={styles.partner}>
                             <Text as="span">Sponsored by:</Text>
                             <Box as="div">
-                                <Image src={img1} alt="" />
+                                <Image src={img1} alt="PayPal" draggable="false" />
                             </Box>
                             <Box as="div">
-                                <Image src={img2} alt="" />
+                                <Image src={img2} alt="Google" draggable="false" />
                             </Box>
                             <Box as="div">
-                                <Image src={img3} alt="" />
+                                <Image src={img3} alt="DropBox" draggable="false" />
                             </Box>
                         </Box>
                     </Box>
                     <Box sx={styles.image}>
-                        <Image src={bannerImg} alt="" />
+                        <Image src={bannerImg} alt="BannerImagen" draggable="false" />
                     </Box>
                 </Grid>
             </Container>
@@ -84,7 +84,7 @@ const styles = {
             mb: ['15px', null, null, null, '20px'],
             width: ['100%'],
             maxWidth: ['100%', null, null, '90%', '100%', '540px'],
-            fontSize: [6, null, '50px', null, '50px', 9],
+            fontSize: [6, null, null, '36px', null, '55px', 9],
         },
         p: {
             fontSize: [1, null, null, 2, null, 3],

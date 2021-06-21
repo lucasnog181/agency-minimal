@@ -2,7 +2,9 @@
 import { jsx, Image } from 'theme-ui';
 import { Link } from 'components/link';
 
-export default function Logo({ src, ...rest }) {
+import Scr from '../assets/logo.png'
+
+export default function Logo({ ...rest }) {
   return (
     <Link
       path="/"
@@ -16,7 +18,7 @@ export default function Logo({ src, ...rest }) {
       {...rest}
     >
 
-      <Image src={src} alt="Logo" />
+      <Image src={Scr} alt="Logo" />
 
     </Link>
   );
